@@ -9,8 +9,8 @@ lang: pl
 
 ---
 
-**Wersja dokumentu:** 1.0.1  
-**Data wejścia w życie:** 27 października 2026 r.  
+**Wersja dokumentu:** 1.0.2  
+**Data wejścia w życie:** 28 października 2026 r.  
 **Wersja aplikacji, której dotyczy:** 1.0.0 i nowsze (do czasu wydania kolejnej wersji niniejszej polityki)
 
 ---
@@ -35,7 +35,7 @@ Aplikacja jest projektem niekomercyjnym, prowadzonym hobbystycznie. Administrato
 - Aplikacja nie zawiera reklam, nie korzysta z zewnętrznych narzędzi analitycznych ani raportowania awarii i nie sprzedaje danych.
 - Podczas wyświetlania mapy Aplikacja pobiera kafelki mapy z serwerów zewnętrznych dostawców. Dostawcy ci widzą wtedy Twój adres IP oraz fragment mapy, który oglądasz (szczegóły w sekcji 4).
 - Możesz w każdej chwili usunąć wszystkie dane, odinstalowując Aplikację lub czyszcząc jej dane w ustawieniach systemu Android (Ustawienia > Aplikacje > Szczytownik > Pamięć > Wyczyść dane).
-- Jeżeli zdecydujesz się wysłać zgłoszenie błędu (przycisk „Zgłoś błąd"), wiadomość trafia bezpośrednio do Administratora przez Twój własny klient pocztowy. To Ty decydujesz, jakie informacje załączysz.
+- Jeżeli zdecydujesz się wysłać zgłoszenie błędu (przycisk „Zgłoś błąd"), wiadomość trafia bezpośrednio do Administratora przez Twojego własnego klienta pocztowego. To Ty decydujesz, jakie informacje załączysz.
 
 ---
 
@@ -52,7 +52,8 @@ Aplikacja jest projektem niekomercyjnym, prowadzonym hobbystycznie. Administrato
 ### 3.2. Zdjęcia
 
 - **Co:** zdjęcia robione przez Ciebie w Aplikacji oraz zdjęcia importowane z galerii lub udostępniane do Aplikacji z innych programów. Pliki zdjęciowe mogą zawierać metadane EXIF (w tym datę, model aparatu i - jeżeli włączyłeś tę funkcję w systemie - lokalizację GPS).
-- **Gdzie trafia:** wyłącznie do lokalnej pamięci urządzenia oraz, jeżeli wyrazisz zgodę systemową, do galerii systemowej.
+- **Gdzie trafia:** Aplikacja zapisuje własną kopię zdjęcia w swojej prywatnej pamięci na lokalnym urządzeniu. Niezależnie od niej, Aplikacja może zapisać dodatkową kopię w galerii systemowej; ta opcja jest domyślnie włączona i możesz ją wyłączyć w ustawieniach Aplikacji. Kopia w galerii wymaga odpowiedniego uprawnienia systemowego.
+- **Udostępnianie:** zdjęcie udostępniane z Aplikacji jest przekazaniem do wybranej przez Ciebie aplikacji wraz z jego metadanymi (w tym pozycją GPS, gdzie zostało zrobione), o ile takie istnieją.
 - **Podstawa prawna:** art. 6 ust. 1 lit. b) RODO (wykonanie funkcji Aplikacji).
 
 ### 3.3. Ustawienia użytkownika
@@ -62,10 +63,11 @@ Aplikacja jest projektem niekomercyjnym, prowadzonym hobbystycznie. Administrato
 
 ### 3.4. Kopia zapasowa i udostępnianie
 
-- Funkcja „Eksportuj dane" tworzy plik kopii zapasowej (wspomnienia i, opcjonalnie, zdjęcia) na Twoim urządzeniu i otwiera systemowe okno udostępniania. To Ty decydujesz, czy, gdzie i komu plik zostanie przekazany (np. do chmury, komunikatora lub e-maila).
+- Aplikacja nie korzysta z automatycznej kopii zapasowej Androida/Google. Dane Aplikacji nie są automatycznie zapisywane przez Google w kopii systemowej.
+- Funkcja „Eksportuj dane" tworzy plik kopii zapasowej (.pcbackup) na Twoim urządzeniu. Możesz dołączyć do niego zdjęcia albo wybrać eksport samych danych. Kopia bez zdjęć nie pozwala odzyskać plików zdjęciowych. Plik backupu nie jest szyfrowany.
+- Po utworzeniu kopii Aplikacja otwiera systemowe okno udostępniania. To Ty decydujesz, czy, gdzie i komu plik zostanie przekazany (np. do chmury, komunikatora lub e-maila).
 - Po przekazaniu pliku poza Aplikację Administrator nie ma wpływu na jego dalsze przetwarzanie - odpowiada za nie wybrana przez Ciebie usługa.
 - Funkcja „Importuj backup" odczytuje wskazany przez Ciebie plik wyłącznie lokalnie.
-- Jeżeli w systemie Android masz włączoną kopię zapasową Google, system może automatycznie zapisać dane Aplikacji w kopii zapasowej na Twoim koncie Google. Tę funkcję obsługuje Google zgodnie z ustawieniami Twojego urządzenia - Administrator nie ma dostępu do tej kopii.
 
 ### 3.5. Dane techniczne (diagnostyka)
 
@@ -100,7 +102,7 @@ Aplikacja prosi o następujące uprawnienia, a każde z nich możesz odebrać w 
 
 - **Lokalizacja** - weryfikacja pozycji względem punktów oraz pokazywanie Cię na mapie,
 - **Aparat** - robienie zdjęć szczytów, schronisk i jezior,
-- **Zdjęcia i multimedia (w tym lokalizacja zapisana w zdjęciach)** - zapis zdjęć do galerii i import zdjęć z galerii.
+- **Zdjęcia i multimedia (w tym lokalizacja zapisana w zdjęciach)** - import zdjęć z galerii oraz opcjonalny zapis dodatkowej kopii do galerii. Własna kopia Aplikacji jest przechowywana oddzielnie.
 
 Aplikacja nie korzysta z mikrofonu, kontaktów, kalendarza, wiadomości ani lokalizacji w tle.
 

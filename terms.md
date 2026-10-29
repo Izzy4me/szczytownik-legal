@@ -9,8 +9,8 @@ lang: pl
 
 ---
 
-**Wersja dokumentu:** 1.0.1  
-**Data wejścia w życie:** 27 października 2026 r.  
+**Wersja dokumentu:** 1.0.2  
+**Data wejścia w życie:** 28 października 2026 r.  
 **Aplikacja:** Szczytownik (dalej „**Aplikacja**”)
 
 ---
@@ -36,7 +36,7 @@ lang: pl
 ## 3. Wymagania
 
 1. Korzystanie z Aplikacji wymaga urządzenia z systemem Android oraz wyrażenia zgód systemowych na dostęp do lokalizacji, aparatu i galerii - w zakresie funkcji, z których chcesz korzystać.
-2. Aplikacja jest przeznaczona dla osób w wieku **13 lat i starszych**. Osoby niepełnoletnie powinny korzystać z Aplikacji za wiedzą rodziców lub opiekunów.
+2. Aplikacja jest przeznaczona dla osób w wieku **16 lat i starszych**. Osoby niepełnoletnie powinny korzystać z Aplikacji za wiedzą rodziców lub opiekunów.
 3. Niektóre funkcje (np. mapa) wymagają połączenia z internetem. Koszty transmisji danych ponosisz zgodnie z umową z operatorem.
 
 ---
